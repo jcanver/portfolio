@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('./assets/fonts/Proxima-Soft-Thin.ttf')  format('truetype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('./assets/fonts/Proxima-Soft-Thin.ttf')  format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('./assets/fonts/Proxima-Soft-Light.ttf')  format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('./assets/fonts/Proxima-Soft-Regular.ttf')  format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('./assets/fonts/Proxima-Soft-Medium.ttf')  format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('./assets/fonts/Proxima-Soft-Semibold.ttf')  format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Proxima Soft';
+  src: url('./assets/fonts/Proxima-Soft-Bold.ttf')  format('truetype');
+  font-weight: 700;
+}
+
+
+html, body {
+  font-family: 'Proxima Soft', 'Montserrat', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial,
+    'Lucida Grande', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 0;
+  color: #333;
+  background: #EFEFEF;
+}
+/* @media screen and (min-width: 960px) { */
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* } */
+
+
+a {
+  color: #333333;
+}
+
+img {
+  max-width: 100%;
+}
